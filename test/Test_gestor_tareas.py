@@ -25,5 +25,22 @@ class TestGestorTareas(unittest.TestCase):
         self.gestor.eliminar_tarea(0)
         self.assertEqual(len(self.gestor.tareas), 0)
 
+    def test_ver_tareas(self):
+        # Agregar algunas tareas para probar
+        self.gestor.agregar_tarea("Tarea 1", "Descripción de la tarea 1")
+        self.gestor.agregar_tarea("Tarea 2", "Descripción de la tarea 2")
+
+        # Obtener la lista de tareas
+        tareas = self.gestor.ver_tareas()
+
+        # Comprobar que la lista de tareas tiene el tamaño esperado
+        self.assertEqual(len(tareas), 2)
+
+        # Verificar que las tareas en la lista son las que se agregaron
+        self.assertEqual(tareas[0].titulo, "Tarea 1")
+        self.assertEqual(tareas[0].descripcion, "Descripción de la tarea 1")
+        self.assertEqual(tareas[1].titulo, "Tarea 2")
+        self.assertEqual(tareas[1].descripcion, "Descripción de la tarea 2")
+
 if __name__ == "__main__":
     unittest.main()
