@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9394c35f-8c12-4e02-8e8a-897b6ac9b092" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logica/gestor_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logica/gestor_tareas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Test_gestor_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Test_gestor_tareas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     "Python tests.Python tests in Test_gestor_tareas.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/agregar__tarea",
     "last_opened_file_path": "D:/gestor_tareas_sem11"
   }
 }]]></component>
